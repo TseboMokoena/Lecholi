@@ -1162,6 +1162,7 @@ fieldset:disabled a.btn {
 }
 
 .navbar-brand {
+  max-width: 85%;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -1314,8 +1315,8 @@ fieldset:disabled a.btn {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }
 
 .alert {
@@ -2424,7 +2425,7 @@ h5,
 
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -2473,10 +2474,8 @@ h5,
 
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  /* color: rgba(0, 0, 0, 0.5) !important; */
   color: #ffffff !important;
   border-color: #ffffff !important;
-  /* border-color: rgba(0, 0, 0, 0.5) !important; */
   cursor: pointer;
   margin-right: 15px !important;
   text-transform: uppercase;
@@ -2488,7 +2487,6 @@ h5,
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   color: #ffffff !important;
-  /* color: #000000 !important; */
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
@@ -2510,7 +2508,6 @@ h5,
 
 .ftco-navbar-light.scrolled .navbar-brand {
   color: #ffffff;
-  /* color: #000000; */
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -2518,7 +2515,6 @@ h5,
 @media (max-width: 991.98px) {
   .ftco-navbar-light.scrolled .navbar-brand {
     color: #ffffff;
-    /* color: #000000; */
     padding-left: 20px;
   }
 }
