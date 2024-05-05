@@ -3510,14 +3510,14 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  /* padding: 7em 0; */
   position: relative;
   width: 100%;
 }
 
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    /* padding: 6em 0; */
   }
 }
 
@@ -4673,4 +4673,8 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.youtube-embed {
+    z-index: 0;
 }
