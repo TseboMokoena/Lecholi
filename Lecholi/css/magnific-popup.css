@@ -28,7 +28,10 @@
   left: 0;
   top: 0;
   padding: 0 8px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  display: grid;
+  align-items: center;
+  justify-items: center;}
 
 .mfp-container:before {
   content: '';
@@ -168,11 +171,13 @@ img.mfp-img {
   line-height: 0;
   box-sizing: border-box;
   padding: 40px 0 40px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  align-items: center;}
 
 /* The shadow behind the image */
 .mfp-figure {
-  line-height: 0; }
+  line-height: 0; 
+align-items: center;}
   .mfp-figure:after {
     content: '';
     position: absolute;

@@ -4677,3 +4677,8 @@ textarea.form-control {
 .youtube-embed {
     z-index: 0;
 }
+
+.mfp-content {
+  position: absolute;
+  top: 0;
+}
