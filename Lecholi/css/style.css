@@ -2550,7 +2550,7 @@ h5,
   right: 0;
   bottom: 0;
   content: '';
-  opacity: .4;
+  opacity: 0.7;
   background: #232429;
   z-index: -2;
 }
@@ -2565,7 +2565,7 @@ h5,
 
 .hero-wrap.hero-wrap-2 .overlay {
   width: 100%;
-  opacity: .4;
+  opacity: .7;
   background: #232429;
 }
 
