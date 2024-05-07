@@ -3057,6 +3057,7 @@ h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin-bottom: 4em; 
 }
 
 @media (max-width: 767.98px) {
@@ -3650,6 +3651,7 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
   z-index: 0;
+  padding-top: 4rem;
 }
 
 .ftco-footer .logo a {
