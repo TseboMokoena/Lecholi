@@ -2073,6 +2073,10 @@ h2.mb-4 {
   padding: 1.5rem !important;
 }
 
+.p-4-1 {
+  padding: 1rem 1.5rem 0 1.5rem !important;
+}
+
 
 .py-4 {
   padding-top: 1.5rem !important;
@@ -4222,7 +4226,7 @@ textarea.form-control {
 }
 
 .block-23 ul li .icon {
-  width: 40px;
+  width: 35px;
   font-size: 18px;
   padding-top: 2px;
   color: #1A4D2E !important;
@@ -4343,7 +4347,6 @@ textarea.form-control {
 
 .contactForm .form-control {
   border: 2px solid rgba(0, 0, 0, 0.05) !important;
-  padding: 15px;
   color: rgba(0, 0, 0, 0.8) !important;
 }
 
@@ -4683,4 +4686,8 @@ textarea.form-control {
 .mfp-content {
   position: absolute;
   top: 0;
+}
+
+.tik-tok-icon {
+  margin: 12px;
 }
