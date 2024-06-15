@@ -7,8 +7,6 @@
   "use strict";
 
   let forms = document.querySelectorAll('.contactForm');
-  console.log(forms)
-
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -22,10 +20,10 @@
         displayError(thisForm, 'The form action property is not set!');
         return;
       }
-      // TODO
-      // thisForm.querySelector('.loading').classList.add('d-block');
-      // thisForm.querySelector('.error-message').classList.remove('d-block');
-      // thisForm.querySelector('.sent-message').classList.remove('d-block');
+
+      thisForm.querySelector('.loading').classList.add('d-block');
+      thisForm.querySelector('.error-message').classList.remove('d-block');
+      thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
 
@@ -65,10 +63,9 @@
       }
     })
     .then(data => {
-      // thisForm.querySelector('.loading').classList.remove('d-block');
+      thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
-        console.log('OK')
-        // thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
@@ -80,10 +77,9 @@
   }
 
   function displayError(thisForm, error) {
-    console.log(error)
-    // thisForm.querySelector('.loading').classList.remove('d-block');
-    // thisForm.querySelector('.error-message').innerHTML = error;
-    // thisForm.querySelector('.error-message').classList.add('d-block');
+    thisForm.querySelector('.loading').classList.remove('d-block');
+    thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
 })();
