@@ -38,6 +38,9 @@
             <p><strong>Email:</strong> $email</p>
             <p><strong>Gender:</strong> $gender</p>
             <p><strong>Country:</strong> $country</p>
+            <br>
+            <p>Excel friendly, copy and paste into excel table and format<p>
+            <p>$name,$surname,$email,$gender,$country</p>
         </body>
         </html>
         ";
