@@ -445,6 +445,10 @@ pre code {
   margin-left: auto;
 }
 
+.container-padding {
+  padding-top: 65px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
